@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS GAMES(id VARCHAR(36) NOT NULL UNIQUE, player VARCHAR(128), moves int, hero_init_row int, hero_init_column int, hero_row int, hero_column int, hero_direction CHAR(1), hero_gold BIT, hero_arrows INT, board_size INT, board VARCHAR(450))
